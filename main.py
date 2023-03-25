@@ -5,9 +5,9 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 Bot = Client(
     "Password Generator Bot",
-    bot_token=os.environ.get("BOT_TOKEN"),
-    api_id=int(os.environ.get("API_ID")),
-    api_hash=os.environ.get("API_HASH")
+    bot_token=os.environ.get("6048153018:AAGd9B6zEHeGPlwse9EkNqg05kmdV08e1MA"),
+    api_id=int(os.environ.get("27078399")),
+    api_hash=os.environ.get("21ba7c10c1532484c2f69fdf07a99284")
 )
 
 TEXT = """**Hai {},
@@ -18,15 +18,15 @@ For Know More /help"""
 BUTTONS = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("Channel 🔰", url = "https://telegram.me/EKBOTZ_UPDATE"),
-            InlineKeyboardButton("Support Group ⭕️", url = "https://telegram.me/ekbotz_support")
+            InlineKeyboardButton("Channel 🔰", url = "https://t.me/+8abs3DVL7yAyY2I1"),
+            InlineKeyboardButton("Support Group ⭕️", url = "https://telegram.me/no_support")
         ],
         [
             InlineKeyboardButton("Repo 🗂️", url = "https://github.com/M-fazin/Password-Generator-Bot"),
             InlineKeyboardButton("Deploy 🗃️", url = "https://heroku.com/deploy?template=https://github.com/M-fazin/Password-Generator-Bot")
         ],
         [
-            InlineKeyboardButton("Developer 💡", url = "https://github.com/M-fazin/")
+            InlineKeyboardButton("Developer 💡", url = "https://m.youtube.com/channel/UC_dRWQYg07t9XA0Mxy4jYWQ")
         ]
     ]
 )
